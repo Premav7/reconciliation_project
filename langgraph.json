@@ -1,0 +1,20 @@
+{
+  "graphs": {
+    "reconciliation": "mian1:app"
+  },
+  "env": ".env",
+  "dependencies": [
+    "langgraph",
+    "langchain",
+    "langchain_core",
+    "pydantic",
+    "langchain_openai",
+    "tavily-python",
+    "langchain-google-genai",
+    "google-generativeai",
+    "langchain-tavily",
+    "langgraph-cli",
+    "uvicorn",
+    "python-dotenv"
+  ]
+}

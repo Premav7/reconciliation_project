@@ -1,0 +1,229 @@
+Invoice ID,Date_ERP,Amount_ERP,Status,Date_BANK,Description,Amount_BANK,Ref ID,_merge,Reconciliation_Status
+INV0001,2025-02-10,267.1,Cancelled,2025-02-09,Payment INV0001,267.1,1,both,ERP Cancellation Conflict
+INV0002,2025-02-17,1789.75,Paid,2025-02-15,Payment INV0002,1788.62,2,both,Amount Mismatch
+INV0003,2025-01-02,1144.43,Cancelled,2025-01-04,Payment INV0003,1144.43,3,both,ERP Cancellation Conflict
+INV0004,2025-01-18,1628.39,Paid,2025-01-17,Payment INV0004,1628.39,4,both,Match
+INV0005,2025-01-10,469.86,Pending,2025-01-11,Payment INV0005,469.86,5,both,Match
+INV0006,2025-02-08,565.82,Paid,2025-02-10,Payment INV0006,565.82,6,both,Match
+INV0007,2025-01-06,1126.48,Cancelled,2025-01-06,Payment INV0007,1126.48,7,both,ERP Cancellation Conflict
+INV0008,2025-01-03,1339.46,Pending,2025-01-02,Payment INV0008,1339.46,8,both,Match
+INV0009,2025-01-30,1289.58,Pending,2025-01-30,Payment INV0009,1289.58,9,both,Match
+INV0010,2025-03-01,1382.92,Paid,2025-02-28,Payment INV0010,1382.92,10,both,Match
+INV0011,2025-01-30,789.94,Cancelled,2025-01-29,Payment INV0011,789.94,11,both,ERP Cancellation Conflict
+INV0012,2025-02-19,159.08,Paid,2025-02-20,Payment INV0012,159.08,12,both,Match
+INV0013,2025-03-02,1156.0,Cancelled,2025-03-03,Payment INV0013,1156.0,13,both,ERP Cancellation Conflict
+INV0014,2025-01-30,328.6,Paid,2025-02-01,Payment INV0014,328.6,14,both,Match
+INV0015,2025-01-28,1800.75,Pending,2025-01-27,Payment INV0015,1800.75,15,both,Match
+INV0016,2025-01-04,1729.15,Paid,2025-01-05,Payment INV0016,1729.15,16,both,Match
+INV0017,2025-02-08,1992.44,Cancelled,2025-02-10,Payment INV0017,1992.44,17,both,ERP Cancellation Conflict
+INV0017,2025-02-08,1992.44,Cancelled,2025-02-10,Payment INV0017,1992.44,17,both,ERP Cancellation Conflict
+INV0018,2025-02-16,273.38,Cancelled,2025-02-16,Payment INV0018,273.38,18,both,ERP Cancellation Conflict
+INV0019,2025-01-30,56.33,Cancelled,2025-01-30,Payment INV0019,56.33,19,both,ERP Cancellation Conflict
+INV0020,2025-02-02,1829.62,Cancelled,2025-02-04,Payment INV0020,1829.62,20,both,ERP Cancellation Conflict
+INV0021,2025-02-18,365.02,Cancelled,2025-02-20,Payment INV0021,365.02,21,both,ERP Cancellation Conflict
+INV0021,2025-02-18,365.02,Cancelled,2025-02-20,Payment INV0021,365.02,21,both,ERP Cancellation Conflict
+INV0022,2025-03-01,757.81,Pending,2025-02-28,Payment INV0022,757.81,22,both,Match
+INV0023,2025-01-06,1477.22,Paid,2025-01-08,Payment INV0023,1477.22,23,both,Match
+INV0024,2025-01-31,1896.35,Paid,2025-02-02,Payment INV0024,1896.35,24,both,Match
+INV0025,2025-02-04,1522.77,Cancelled,2025-02-04,Payment INV0025,1522.77,25,both,ERP Cancellation Conflict
+INV0026,2025-01-24,904.3,Cancelled,2025-01-23,Payment INV0026,904.3,26,both,ERP Cancellation Conflict
+INV0027,2025-02-07,1130.15,Cancelled,2025-02-05,Payment INV0027,1130.15,27,both,ERP Cancellation Conflict
+INV0028,2025-01-05,1815.57,Pending,,,,,left_only,Missing in Bank
+INV0029,2025-01-16,593.03,Pending,2025-01-15,Payment INV0029,593.03,29,both,Match
+INV0030,2025-02-06,971.71,Pending,2025-02-05,Payment INV0030,971.71,30,both,Match
+INV0031,2025-01-23,875.98,Pending,2025-01-21,Payment INV0031,875.98,31,both,Match
+INV0032,2025-01-07,168.19,Cancelled,2025-01-05,Payment INV0032,168.19,32,both,ERP Cancellation Conflict
+INV0033,2025-01-29,323.36,Paid,2025-01-28,Payment INV0033,323.36,33,both,Match
+INV0034,2025-02-21,1729.63,Cancelled,,,,,left_only,Missing in Bank
+INV0035,2025-02-11,1998.6,Paid,2025-02-10,Payment INV0035,1998.6,35,both,Match
+INV0036,2025-01-14,1736.07,Paid,2025-01-12,Payment INV0036,1736.07,36,both,Match
+INV0037,2025-02-20,1581.0,Pending,2025-02-22,Payment INV0037,1581.0,37,both,Match
+INV0038,2025-01-13,628.58,Paid,2025-01-15,Payment INV0038,628.58,38,both,Match
+INV0039,2025-01-04,1189.15,Cancelled,2025-01-06,Payment INV0039,1189.15,39,both,ERP Cancellation Conflict
+INV0040,2025-01-06,1710.12,Paid,2025-01-05,Payment INV0040,1710.12,40,both,Match
+INV0041,2025-02-06,530.12,Cancelled,,,,,left_only,Missing in Bank
+INV0042,2025-01-06,867.49,Cancelled,2025-01-06,Payment INV0042,867.49,42,both,ERP Cancellation Conflict
+INV0043,2025-02-15,662.66,Pending,2025-02-15,Payment INV0043,662.66,43,both,Match
+INV0044,2025-03-01,191.46,Pending,2025-03-03,Payment INV0044,191.46,44,both,Match
+INV0045,2025-01-14,1036.48,Paid,2025-01-12,Payment INV0045,1036.48,45,both,Match
+INV0046,2025-01-11,904.46,Cancelled,2025-01-13,Payment INV0046,904.46,46,both,ERP Cancellation Conflict
+INV0047,2025-02-03,65.26,Cancelled,2025-02-01,Payment INV0047,65.26,47,both,ERP Cancellation Conflict
+INV0048,2025-01-08,1784.94,Cancelled,2025-01-08,Payment INV0048,1784.94,48,both,ERP Cancellation Conflict
+INV0049,2025-01-22,447.01,Cancelled,2025-01-24,Payment INV0049,447.01,49,both,ERP Cancellation Conflict
+INV0050,2025-02-24,149.06,Cancelled,2025-02-24,Payment INV0050,148.39,50,both,ERP Cancellation Conflict
+INV0051,2025-01-17,365.08,Pending,2025-01-18,Payment INV0051,365.08,51,both,Match
+INV0052,2025-03-02,1772.06,Paid,2025-03-02,Payment INV0052,1772.06,52,both,Match
+INV0053,2025-01-09,131.57,Pending,2025-01-07,Payment INV0053,131.57,53,both,Match
+INV0054,2025-01-16,1350.52,Pending,2025-01-17,Payment INV0054,1350.52,54,both,Match
+INV0055,2025-03-01,1863.27,Paid,2025-02-28,Payment INV0055,1863.27,55,both,Match
+INV0055,2025-03-01,1863.27,Paid,2025-02-28,Payment INV0055,1863.27,55,both,Match
+INV0056,2025-02-17,1852.75,Pending,2025-02-16,Payment INV0056,1852.75,56,both,Match
+INV0057,2025-01-07,795.96,Paid,2025-01-06,Payment INV0057,795.96,57,both,Match
+INV0058,2025-01-23,645.12,Paid,2025-01-22,Payment INV0058,645.12,58,both,Match
+INV0059,2025-01-05,1935.43,Pending,2025-01-07,Payment INV0059,1935.43,59,both,Match
+INV0060,2025-02-04,695.74,Paid,2025-02-04,Payment INV0060,695.74,60,both,Match
+INV0061,2025-01-17,124.6,Cancelled,2025-01-17,Payment INV0061,124.6,61,both,ERP Cancellation Conflict
+INV0062,2025-01-08,801.13,Cancelled,2025-01-06,Payment INV0062,801.13,62,both,ERP Cancellation Conflict
+INV0062,2025-01-08,801.13,Cancelled,2025-01-06,Payment INV0062,801.13,62,both,ERP Cancellation Conflict
+INV0063,2025-03-01,1622.7,Cancelled,2025-02-28,Payment INV0063,1622.7,63,both,ERP Cancellation Conflict
+INV0064,2025-02-12,1845.5,Cancelled,2025-02-10,Payment INV0064,1845.5,64,both,ERP Cancellation Conflict
+INV0065,2025-01-20,1350.44,Pending,2025-01-20,Payment INV0065,1350.44,65,both,Match
+INV0066,2025-02-12,1883.71,Cancelled,2025-02-11,Payment INV0066,1883.71,66,both,ERP Cancellation Conflict
+INV0067,2025-02-05,1675.76,Pending,2025-02-06,Payment INV0067,1675.76,67,both,Match
+INV0068,2025-01-21,956.73,Pending,2025-01-23,Payment INV0068,956.73,68,both,Match
+INV0069,2025-02-20,1485.12,Cancelled,,,,,left_only,Missing in Bank
+INV0070,2025-02-02,1344.51,Cancelled,2025-02-01,Payment INV0070,1344.51,70,both,ERP Cancellation Conflict
+INV0071,2025-01-13,337.34,Paid,2025-01-14,Payment INV0071,337.34,71,both,Match
+INV0072,2025-01-30,858.16,Cancelled,2025-01-31,Payment INV0072,858.16,72,both,ERP Cancellation Conflict
+INV0073,2025-02-11,1390.86,Paid,2025-02-10,Payment INV0073,1390.86,73,both,Match
+INV0074,2025-02-03,955.87,Cancelled,2025-02-01,Payment INV0074,955.87,74,both,ERP Cancellation Conflict
+INV0075,2025-02-12,1085.71,Cancelled,2025-02-13,Payment INV0075,1085.71,75,both,ERP Cancellation Conflict
+INV0076,2025-02-02,882.14,Cancelled,2025-02-01,Payment INV0076,882.14,76,both,ERP Cancellation Conflict
+INV0077,2025-01-17,1515.96,Cancelled,2025-01-19,Payment INV0077,1515.96,77,both,ERP Cancellation Conflict
+INV0078,2025-01-29,201.09,Pending,2025-01-29,Payment INV0078,201.09,78,both,Match
+INV0079,2025-01-09,344.12,Pending,2025-01-08,Payment INV0079,344.12,79,both,Match
+INV0080,2025-02-04,958.55,Paid,2025-02-05,Payment INV0080,958.55,80,both,Match
+INV0081,2025-03-02,1406.27,Cancelled,2025-02-28,Payment INV0081,1406.27,81,both,ERP Cancellation Conflict
+INV0082,2025-01-25,1714.22,Pending,2025-01-27,Payment INV0082,1714.22,82,both,Match
+INV0083,2025-02-01,477.87,Pending,2025-02-02,Payment INV0083,477.87,83,both,Match
+INV0084,2025-01-26,1462.15,Pending,2025-01-28,Payment INV0084,1462.15,84,both,Match
+INV0085,2025-02-07,1150.56,Paid,,,,,left_only,Missing in Bank
+INV0086,2025-01-28,314.61,Pending,2025-01-28,Payment INV0086,314.61,86,both,Match
+INV0087,2025-01-21,708.13,Pending,2025-01-22,Payment INV0087,708.13,87,both,Match
+INV0088,2025-01-02,1510.6,Paid,2025-01-02,Payment INV0088,1510.6,88,both,Match
+INV0089,2025-02-11,128.5,Paid,2025-02-10,Payment INV0089,128.5,89,both,Match
+INV0090,2025-01-16,296.13,Cancelled,2025-01-15,Payment INV0090,296.13,90,both,ERP Cancellation Conflict
+INV0091,2025-01-24,377.19,Cancelled,2025-01-22,Payment INV0091,377.19,91,both,ERP Cancellation Conflict
+INV0092,2025-01-20,260.79,Paid,2025-01-22,Payment INV0092,260.79,92,both,Match
+INV0093,2025-01-26,1885.87,Paid,,,,,left_only,Missing in Bank
+INV0094,2025-02-14,1669.61,Paid,2025-02-14,Payment INV0094,1669.61,94,both,Match
+INV0095,2025-01-08,1602.64,Cancelled,2025-01-08,Payment INV0095,1602.64,95,both,ERP Cancellation Conflict
+INV0096,2025-01-05,1036.62,Pending,,,,,left_only,Missing in Bank
+INV0097,2025-01-27,1653.55,Paid,2025-01-27,Payment INV0097,1653.55,97,both,Match
+INV0098,2025-02-15,348.33,Paid,2025-02-15,Payment INV0098,348.33,98,both,Match
+INV0099,2025-02-19,992.82,Pending,2025-02-21,Payment INV0099,992.82,99,both,Match
+INV0100,2025-02-23,1872.51,Pending,2025-02-22,Payment INV0100,1872.51,100,both,Match
+INV0101,2025-02-12,789.03,Paid,2025-02-12,Payment INV0101,789.03,101,both,Match
+INV0102,2025-02-21,553.79,Pending,2025-02-21,Payment INV0102,553.79,102,both,Match
+INV0103,2025-01-13,216.95,Cancelled,2025-01-15,Payment INV0103,216.95,103,both,ERP Cancellation Conflict
+INV0104,2025-02-11,1438.09,Pending,2025-02-09,Payment INV0104,1438.09,104,both,Match
+INV0105,2025-01-16,647.1,Cancelled,2025-01-18,Payment INV0105,647.1,105,both,ERP Cancellation Conflict
+INV0106,2025-02-17,1123.26,Pending,2025-02-17,Payment INV0106,1123.26,106,both,Match
+INV0107,2025-02-16,425.54,Paid,2025-02-15,Payment INV0107,425.54,107,both,Match
+INV0108,2025-01-18,1462.94,Cancelled,2025-01-16,Payment INV0108,1462.94,108,both,ERP Cancellation Conflict
+INV0109,2025-01-24,399.91,Paid,2025-01-23,Payment INV0109,399.91,109,both,Match
+INV0110,2025-02-05,619.67,Paid,2025-02-06,Payment INV0110,619.67,110,both,Match
+INV0110,2025-02-05,619.67,Paid,2025-02-06,Payment INV0110,619.67,110,both,Match
+INV0111,2025-01-19,965.32,Pending,2025-01-17,Payment INV0111,965.32,111,both,Match
+INV0112,2025-01-08,1653.13,Pending,2025-01-10,Payment INV0112,1653.13,112,both,Match
+INV0113,2025-01-10,1631.73,Pending,,,,,left_only,Missing in Bank
+INV0114,2025-01-16,280.98,Pending,2025-01-18,Payment INV0114,280.98,114,both,Match
+INV0115,2025-01-29,1821.58,Pending,2025-01-30,Payment INV0115,1821.58,115,both,Match
+INV0116,2025-02-09,1922.21,Paid,2025-02-08,Payment INV0116,1922.21,116,both,Match
+INV0117,2025-01-06,356.26,Paid,2025-01-05,Payment INV0117,356.06,117,both,Rounding Difference
+INV0118,2025-01-19,113.65,Pending,2025-01-20,Payment INV0118,113.65,118,both,Match
+INV0119,2025-01-17,1586.26,Cancelled,2025-01-16,Payment INV0119,1586.26,119,both,ERP Cancellation Conflict
+INV0120,2025-02-11,340.53,Pending,2025-02-09,Payment INV0120,340.53,120,both,Match
+INV0121,2025-02-08,1510.47,Cancelled,2025-02-09,Payment INV0121,1510.47,121,both,ERP Cancellation Conflict
+INV0122,2025-02-14,834.89,Pending,2025-02-15,Payment INV0122,834.89,122,both,Match
+INV0123,2025-02-26,892.46,Pending,2025-02-24,Payment INV0123,892.46,123,both,Match
+INV0124,2025-02-23,1728.01,Cancelled,2025-02-23,Payment INV0124,1728.01,124,both,ERP Cancellation Conflict
+INV0125,2025-01-12,967.48,Cancelled,2025-01-12,Payment INV0125,967.48,125,both,ERP Cancellation Conflict
+INV0126,2025-02-10,1637.78,Paid,2025-02-11,Payment INV0126,1637.78,126,both,Match
+INV0127,2025-02-24,363.61,Pending,2025-02-24,Payment INV0127,363.61,127,both,Match
+INV0128,2025-02-18,1122.69,Pending,,,,,left_only,Missing in Bank
+INV0129,2025-01-17,680.38,Pending,2025-01-15,Payment INV0129,680.38,129,both,Match
+INV0130,2025-01-27,155.7,Cancelled,2025-01-28,Payment INV0130,155.7,130,both,ERP Cancellation Conflict
+INV0131,2025-01-14,570.76,Paid,2025-01-15,Payment INV0131,570.76,131,both,Match
+INV0132,2025-01-02,1947.64,Cancelled,2025-01-01,Payment INV0132,1947.64,132,both,ERP Cancellation Conflict
+INV0132,2025-01-02,1947.64,Cancelled,2025-01-01,Payment INV0132,1947.64,132,both,ERP Cancellation Conflict
+INV0133,2025-01-27,231.76,Paid,2025-01-25,Payment INV0133,231.76,133,both,Match
+INV0134,2025-03-01,1447.38,Cancelled,2025-03-02,Payment INV0134,1447.38,134,both,ERP Cancellation Conflict
+INV0135,2025-01-16,940.73,Paid,2025-01-18,Payment INV0135,940.73,135,both,Match
+INV0136,2025-02-25,186.13,Pending,2025-02-27,Payment INV0136,186.13,136,both,Match
+INV0136,2025-02-25,186.13,Pending,2025-02-27,Payment INV0136,186.13,136,both,Match
+INV0137,2025-02-16,632.18,Cancelled,2025-02-17,Payment INV0137,632.18,137,both,ERP Cancellation Conflict
+INV0138,2025-01-31,722.99,Cancelled,2025-02-01,Payment INV0138,722.99,138,both,ERP Cancellation Conflict
+INV0139,2025-01-13,1962.51,Paid,2025-01-12,Payment INV0139,1962.51,139,both,Match
+INV0140,2025-01-21,1502.18,Cancelled,2025-01-22,Payment INV0140,1502.18,140,both,ERP Cancellation Conflict
+INV0141,2025-02-22,1321.44,Paid,2025-02-20,Payment INV0141,1321.44,141,both,Match
+INV0142,2025-01-22,1745.92,Pending,,,,,left_only,Missing in Bank
+INV0143,2025-02-28,941.01,Cancelled,2025-02-27,Payment INV0143,941.01,143,both,ERP Cancellation Conflict
+INV0144,2025-01-17,710.19,Cancelled,2025-01-15,Payment INV0144,710.19,144,both,ERP Cancellation Conflict
+INV0145,2025-02-24,1090.56,Pending,2025-02-25,Payment INV0145,1090.56,145,both,Match
+INV0145,2025-02-24,1090.56,Pending,2025-02-25,Payment INV0145,1090.56,145,both,Match
+INV0146,2025-01-05,507.8,Cancelled,2025-01-04,Payment INV0146,507.8,146,both,ERP Cancellation Conflict
+INV0147,2025-01-07,1532.72,Cancelled,2025-01-08,Payment INV0147,1532.72,147,both,ERP Cancellation Conflict
+INV0148,2025-01-02,139.68,Paid,2025-01-02,Payment INV0148,139.68,148,both,Match
+INV0149,2025-01-27,1153.56,Paid,2025-01-25,Payment INV0149,1153.56,149,both,Match
+INV0150,2025-02-13,519.62,Cancelled,2025-02-14,Payment INV0150,519.62,150,both,ERP Cancellation Conflict
+INV0151,2025-02-12,68.32,Pending,2025-02-14,Payment INV0151,68.32,151,both,Match
+INV0152,2025-01-23,1975.92,Pending,2025-01-24,Payment INV0152,1975.92,152,both,Match
+INV0153,2025-01-20,438.47,Pending,2025-01-18,Payment INV0153,438.47,153,both,Match
+INV0154,2025-02-06,626.95,Cancelled,2025-02-07,Payment INV0154,626.95,154,both,ERP Cancellation Conflict
+INV0155,2025-02-13,1567.71,Paid,2025-02-14,Payment INV0155,1567.71,155,both,Match
+INV0156,2025-02-19,1607.78,Cancelled,2025-02-18,Payment INV0156,1607.78,156,both,ERP Cancellation Conflict
+INV0157,2025-02-13,1523.38,Cancelled,2025-02-12,Payment INV0157,1523.38,157,both,ERP Cancellation Conflict
+INV0158,2025-02-11,126.87,Pending,,,,,left_only,Missing in Bank
+INV0159,2025-01-24,1478.1,Paid,2025-01-24,Payment INV0159,1478.1,159,both,Match
+INV0160,2025-01-09,1583.7,Pending,2025-01-09,Payment INV0160,1583.7,160,both,Match
+INV0161,2025-02-22,1891.17,Pending,2025-02-22,Payment INV0161,1891.17,161,both,Match
+INV0162,2025-01-05,324.48,Paid,2025-01-06,Payment INV0162,324.48,162,both,Match
+INV0163,2025-01-24,226.09,Pending,,,,,left_only,Missing in Bank
+INV0164,2025-02-04,291.0,Pending,2025-02-04,Payment INV0164,291.0,164,both,Match
+INV0165,2025-03-02,774.37,Cancelled,2025-02-28,Payment INV0165,774.37,165,both,ERP Cancellation Conflict
+INV0166,2025-01-21,1834.75,Paid,2025-01-22,Payment INV0166,1834.75,166,both,Match
+INV0167,2025-01-27,277.52,Paid,2025-01-27,Payment INV0167,277.52,167,both,Match
+INV0168,2025-01-16,1780.16,Paid,2025-01-16,Payment INV0168,1780.16,168,both,Match
+INV0169,2025-03-02,1103.38,Cancelled,2025-03-01,Payment INV0169,1103.38,169,both,ERP Cancellation Conflict
+INV0170,2025-02-23,1004.23,Pending,2025-02-23,Payment INV0170,1003.71,170,both,Rounding Difference
+INV0171,2025-03-02,510.42,Pending,,,,,left_only,Missing in Bank
+INV0172,2025-02-13,766.3,Cancelled,2025-02-14,Payment INV0172,766.3,172,both,ERP Cancellation Conflict
+INV0173,2025-03-02,1703.66,Pending,,,,,left_only,Missing in Bank
+INV0174,2025-01-14,1301.32,Cancelled,2025-01-12,Payment INV0174,1301.32,174,both,ERP Cancellation Conflict
+INV0175,2025-01-09,1584.61,Paid,,,,,left_only,Missing in Bank
+INV0176,2025-02-18,1130.71,Cancelled,2025-02-17,Payment INV0176,1130.71,176,both,ERP Cancellation Conflict
+INV0177,2025-02-27,1212.16,Pending,2025-02-26,Payment INV0177,1212.16,177,both,Match
+INV0178,2025-02-21,390.27,Cancelled,2025-02-20,Payment INV0178,391.43,178,both,ERP Cancellation Conflict
+INV0179,2025-01-21,80.77,Pending,,,,,left_only,Missing in Bank
+INV0180,2025-02-17,870.87,Paid,2025-02-18,Payment INV0180,870.87,180,both,Match
+INV0181,2025-02-07,262.66,Cancelled,2025-02-09,Payment INV0181,263.79,181,both,ERP Cancellation Conflict
+INV0182,2025-02-03,638.18,Cancelled,2025-02-01,Payment INV0182,638.18,182,both,ERP Cancellation Conflict
+INV0183,2025-01-28,1387.89,Pending,2025-01-29,Payment INV0183,1387.89,183,both,Match
+INV0184,2025-02-08,339.25,Paid,2025-02-10,Payment INV0184,339.25,184,both,Match
+INV0185,2025-02-08,1084.59,Pending,2025-02-09,Payment INV0185,1084.59,185,both,Match
+INV0186,2025-02-24,1326.69,Cancelled,2025-02-23,Payment INV0186,1326.69,186,both,ERP Cancellation Conflict
+INV0187,2025-01-27,710.92,Pending,2025-01-25,Payment INV0187,710.92,187,both,Match
+INV0188,2025-01-17,779.89,Paid,2025-01-18,Payment INV0188,779.89,188,both,Match
+INV0189,2025-01-06,892.16,Cancelled,2025-01-05,Payment INV0189,892.16,189,both,ERP Cancellation Conflict
+INV0190,2025-02-05,1145.28,Cancelled,2025-02-05,Payment INV0190,1145.28,190,both,ERP Cancellation Conflict
+INV0191,2025-01-28,1742.78,Cancelled,,,,,left_only,Missing in Bank
+INV0192,2025-01-19,1220.8,Pending,2025-01-21,Payment INV0192,1220.8,192,both,Match
+INV0193,2025-01-15,1702.19,Pending,2025-01-15,Payment INV0193,1702.19,193,both,Match
+INV0194,2025-01-15,1624.08,Cancelled,2025-01-17,Payment INV0194,1624.08,194,both,ERP Cancellation Conflict
+INV0195,2025-01-02,1237.54,Cancelled,2025-01-02,Payment INV0195,1236.63,195,both,ERP Cancellation Conflict
+INV0196,2025-02-28,712.66,Paid,2025-02-27,Payment INV0196,712.66,196,both,Match
+INV0197,2025-01-10,1494.89,Paid,,,,,left_only,Missing in Bank
+INV0198,2025-02-03,469.51,Pending,2025-02-02,Payment INV0198,469.51,198,both,Match
+INV0199,2025-02-19,1885.74,Cancelled,,,,,left_only,Missing in Bank
+INV0200,2025-01-04,353.38,Cancelled,,,,,left_only,Missing in Bank
+,,,,2025-01-06,Adjustment,-37.76,1000,right_only,Non-Invoice Transaction
+,,,,2025-01-28,Interest,-28.15,1001,right_only,Non-Invoice Transaction
+,,,,2025-01-27,Adjustment,-37.71,1002,right_only,Non-Invoice Transaction
+,,,,2025-01-08,Bank Fee,-34.47,1003,right_only,Non-Invoice Transaction
+,,,,2025-01-19,Adjustment,-19.48,1004,right_only,Non-Invoice Transaction
+,,,,2025-02-01,Interest,-26.29,1005,right_only,Non-Invoice Transaction
+,,,,2025-01-03,Adjustment,-40.08,1006,right_only,Non-Invoice Transaction
+,,,,2025-01-04,Interest,-49.65,1007,right_only,Non-Invoice Transaction
+,,,,2025-03-02,Bank Fee,-40.49,1008,right_only,Non-Invoice Transaction
+,,,,2025-02-18,Interest,-38.5,1009,right_only,Non-Invoice Transaction
+,,,,2025-01-08,Adjustment,-49.65,1010,right_only,Non-Invoice Transaction
+,,,,2025-01-28,Interest,-42.09,1011,right_only,Non-Invoice Transaction
+,,,,2025-02-04,Adjustment,-18.33,1012,right_only,Non-Invoice Transaction
+,,,,2025-02-05,Interest,-12.5,1013,right_only,Non-Invoice Transaction
+,,,,2025-01-05,Adjustment,-32.13,1014,right_only,Non-Invoice Transaction
+,,,,2025-01-03,Interest,-30.37,1015,right_only,Non-Invoice Transaction
+,,,,2025-02-28,Interest,-46.5,1016,right_only,Non-Invoice Transaction
+,,,,2025-02-06,Interest,-30.68,1017,right_only,Non-Invoice Transaction
+,,,,2025-02-15,Interest,-21.19,1018,right_only,Non-Invoice Transaction
+,,,,2025-01-08,Interest,-31.77,1019,right_only,Non-Invoice Transaction

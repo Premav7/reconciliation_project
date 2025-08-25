@@ -1,0 +1,8 @@
+pandas
+openpyxl
+pdfplumber
+langchain
+langgraph
+google-generativeai
+reportlab
+python-dotenv

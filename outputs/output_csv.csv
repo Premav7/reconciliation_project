@@ -1,0 +1,65 @@
+ERP_Date,ERP_InvoiceID,ERP_Amount,Bank_Date,Bank_Amount,Discrepancy_Type,Reasoning
+,,1789.75,,,Missing in Bank,Present in ERP, not in Bank
+,,1815.57,,,Missing in Bank,Present in ERP, not in Bank
+,,1729.63,,,Missing in Bank,Present in ERP, not in Bank
+,,530.12,,,Missing in Bank,Present in ERP, not in Bank
+,,149.06,,,Missing in Bank,Present in ERP, not in Bank
+,,365.08,,,Missing in Bank,Present in ERP, not in Bank
+,,1863.27,,,Missing in Bank,Present in ERP, not in Bank
+,,1622.7,,,Missing in Bank,Present in ERP, not in Bank
+,,1485.12,,,Missing in Bank,Present in ERP, not in Bank
+,,344.12,,,Missing in Bank,Present in ERP, not in Bank
+,,1150.56,,,Missing in Bank,Present in ERP, not in Bank
+,,377.19,,,Missing in Bank,Present in ERP, not in Bank
+,,1885.87,,,Missing in Bank,Present in ERP, not in Bank
+,,1036.62,,,Missing in Bank,Present in ERP, not in Bank
+,,789.03,,,Missing in Bank,Present in ERP, not in Bank
+,,619.67,,,Missing in Bank,Present in ERP, not in Bank
+,,1631.73,,,Missing in Bank,Present in ERP, not in Bank
+,,1122.69,,,Missing in Bank,Present in ERP, not in Bank
+,,570.76,,,Missing in Bank,Present in ERP, not in Bank
+,,1745.92,,,Missing in Bank,Present in ERP, not in Bank
+,,126.87,,,Missing in Bank,Present in ERP, not in Bank
+,,226.09,,,Missing in Bank,Present in ERP, not in Bank
+,,510.42,,,Missing in Bank,Present in ERP, not in Bank
+,,1703.66,,,Missing in Bank,Present in ERP, not in Bank
+,,1584.61,,,Missing in Bank,Present in ERP, not in Bank
+,,80.77,,,Missing in Bank,Present in ERP, not in Bank
+,,1742.78,,,Missing in Bank,Present in ERP, not in Bank
+,,1494.89,,,Missing in Bank,Present in ERP, not in Bank
+,,1885.74,,,Missing in Bank,Present in ERP, not in Bank
+,,353.38,,,Missing in Bank,Present in ERP, not in Bank
+,INV0002,1789.75,,1788.62,Amount Mismatch,Amount differs between ERP and Bank
+,INV0178,390.27,,391.43,Amount Mismatch,Amount differs between ERP and Bank
+,INV0181,262.66,,263.79,Amount Mismatch,Amount differs between ERP and Bank
+,INV0195,1237.54,,1236.63,Amount Mismatch,Amount differs between ERP and Bank
+,INV0170,1004.23,,1003.71,Amount Mismatch,Amount differs between ERP and Bank
+,,1992.44,,,Duplicate in Bank,Transaction appears multiple times in bank statement
+,,365.02,,,Duplicate in Bank,Transaction appears multiple times in bank statement
+,,1863.27,,,Duplicate in Bank,Transaction appears multiple times in bank statement
+,,801.13,,,Duplicate in Bank,Transaction appears multiple times in bank statement
+,,619.67,,,Duplicate in Bank,Transaction appears multiple times in bank statement
+,,1947.64,,,Duplicate in Bank,Transaction appears multiple times in bank statement
+,,186.13,,,Duplicate in Bank,Transaction appears multiple times in bank statement
+,,1090.56,,,Duplicate in Bank,Transaction appears multiple times in bank statement
+,,,-37.76,,Non-Invoice Transaction,Adjustment
+,,,-28.15,,Non-Invoice Transaction,Interest
+,,,-37.71,,Non-Invoice Transaction,Adjustment
+,,,-34.47,,Non-Invoice Transaction,Bank Fee
+,,,-19.48,,Non-Invoice Transaction,Adjustment
+,,,-26.29,,Non-Invoice Transaction,Interest
+,,,-40.08,,Non-Invoice Transaction,Adjustment
+,,,-49.65,,Non-Invoice Transaction,Interest
+,,,-40.49,,Non-Invoice Transaction,Bank Fee
+,,,-38.5,,Non-Invoice Transaction,Interest
+,,,-49.65,,Non-Invoice Transaction,Adjustment
+,,,-42.09,,Non-Invoice Transaction,Interest
+,,,-18.33,,Non-Invoice Transaction,Adjustment
+,,,-12.5,,Non-Invoice Transaction,Interest
+,,,-32.13,,Non-Invoice Transaction,Adjustment
+,,,-30.37,,Non-Invoice Transaction,Interest
+,,,-46.5,,Non-Invoice Transaction,Interest
+,,,-30.68,,Non-Invoice Transaction,Interest
+,,,-21.19,,Non-Invoice Transaction,Interest
+,,,-31.77,,Non-Invoice Transaction,Interest
+```
