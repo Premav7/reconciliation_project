@@ -7,7 +7,6 @@ from src.summarizer import summarize_summary
 from src.report_generator import save_report_to_pdf
 
 
-# ---- Define Nodes ----
 def load_data_node(state: ReconciliationState) -> ReconciliationState:
     erp_df = load_erp_data("data/erp_data.xlsx")
     bank_df = load_bank_statement("data/bank_statement.pdf")

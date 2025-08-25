@@ -9,7 +9,6 @@ from reportlab.lib.styles import getSampleStyleSheet
 from datetime import datetime
 
 
-# Load environment variables
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
@@ -22,14 +21,12 @@ def summarize_summary(summary: dict) -> str:
     if not GEMINI_API_KEY:
         raise ValueError("Missing GEMINI_API_KEY. Please set it in .env file.")
 
-    # Initialize Gemini LLM
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.0-flash",
         google_api_key=GEMINI_API_KEY,
         temperature=0.3
     )
 
-    # Define the prompt
     report_prompt = ChatPromptTemplate.from_messages([
         ("system", 
         "You are a financial reconciliation analyst. "
@@ -45,14 +42,12 @@ def summarize_summary(summary: dict) -> str:
         "Please generate the report now.")
     ])
 
-    # Runnable pipeline
     chain = (
-        {"summary": RunnablePassthrough()}  # Pass summary dict forward
+        {"summary": RunnablePassthrough()}  
         | report_prompt
         | llm
     )
 
-    # Invoke chain
     result = chain.invoke(summary)
 
     return result.content
@@ -72,7 +67,6 @@ if __name__ == "__main__":
 
     bank_df["Invoice ID"] = bank_df["Description"].apply(extract_invoice_id)
 
-    # Clean amounts
     erp_df["Amount"] = pd.to_numeric(erp_df["Amount"], errors="coerce").round(2)
     bank_df["Amount"] = pd.to_numeric(bank_df["Amount"], errors="coerce").round(2)
 

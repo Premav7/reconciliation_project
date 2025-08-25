@@ -66,7 +66,6 @@ def analyze_reconciliation_data(erp_data: str, bank_data: str) -> str:
         erp_df.rename(columns={'Date': 'erp_date', 'Invoice ID': 'erp_invoice_id', 'Amount': 'erp_amount', 'Status': 'erp_status'}, inplace=True)
         bank_df.rename(columns={'Date': 'bank_date', 'Description': 'bank_description', 'Amount': 'bank_amount', 'Ref ID': 'bank_ref_id'}, inplace=True)
 
-        # Index by invoice ID for fast lookup
         erp_map = {str(row['erp_invoice_id']).strip(): row for _, row in erp_df.iterrows()}
         bank_map = {str(row['bank_description']).strip(): row for _, row in bank_df.iterrows() if str(row['bank_description']).startswith('INV')}
 
@@ -75,7 +74,6 @@ def analyze_reconciliation_data(erp_data: str, bank_data: str) -> str:
         missing_in_bank = []
         missing_in_erp = []
 
-        # ERP-driven reconciliation
         for erp_id, erp_row in erp_map.items():
             bank_row = bank_map.get(erp_id)
             if bank_row is None:
@@ -98,18 +96,14 @@ def analyze_reconciliation_data(erp_data: str, bank_data: str) -> str:
                         "difference": bank_amt - erp_amt
                     })
 
-        # Bank-driven reconciliation
         for bank_id, bank_row in bank_map.items():
             if bank_id not in erp_map:
                 missing_in_erp.append(bank_row.to_dict())
 
-        # Non-invoice transactions in bank
         non_invoice_transactions = bank_df[~bank_df['bank_description'].str.contains('INV', na=False, case=False)].to_dict('records')
 
-        # Duplicates in bank (by description and amount)
         bank_duplicates = bank_df[bank_df.duplicated(['bank_description', 'bank_amount'], keep=False)].to_dict('records')
 
-        # Rounding differences (amount difference > 0.10 and < 1.00)
         rounding_diffs = []
         for erp_id, erp_row in erp_map.items():
             bank_row = bank_map.get(erp_id)
@@ -147,7 +141,6 @@ def analyze_reconciliation_data(erp_data: str, bank_data: str) -> str:
         return f"Error during reconciliation analysis: {e}"
 
 if __name__ == "__main__":
-    # Sample ERP CSV string
     erp_data = """Date,Invoice ID,Amount,Status
 2024-08-01,INV0001,1000.00,Paid
 2024-08-02,INV0002,2000.00,Paid

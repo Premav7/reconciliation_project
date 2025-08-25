@@ -3,9 +3,8 @@ import json
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.agents import create_tool_calling_agent, AgentExecutor
-from tools.file_tools import read_excel_data, read_pdf_data # Import necessary tools
+from tools.file_tools import read_excel_data, read_pdf_data 
 from dotenv import load_dotenv
-# Load environment variables
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
@@ -13,13 +12,11 @@ def get_report_generation_agent():
     """
     Creates and returns a report generation agent.
     """
-    # 1. Initialize the LLM
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.0-flash",
         google_api_key=GEMINI_API_KEY,
         temperature=0.3
     )
-    # 2. Define the Agent's Prompt
     prompt = ChatPromptTemplate.from_messages(
         [
             (
@@ -45,11 +42,8 @@ def get_report_generation_agent():
         ]
     )
 
-    # 3. Create the Agent
-    # This agent does not use any external tools; it's a pure generation agent.
     tools=[]
     agent = create_tool_calling_agent(llm,[], prompt)
     
     return AgentExecutor(agent=agent, tools=[], verbose=True)
 
-# Note: This is a function that returns the agent. You will call this from main.py

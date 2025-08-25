@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-from src.data_loader import load_erp_data, load_bank_statement
+from data_loader import load_erp_data, load_bank_statement
 import os
 
 

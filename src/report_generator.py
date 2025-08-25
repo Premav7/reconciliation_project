@@ -14,20 +14,16 @@ def markdown_to_paragraphs(report_text, styles):
         if not line.strip():
             continue
 
-        # Remove any stray ** anywhere in the line
         line = line.replace("**", "")
 
-        # Handle headings
         if line.startswith("### "):
             story.append(Paragraph(line.replace("### ", ""), styles["CustomHeading"]))
         elif line.startswith("## "):
             story.append(Paragraph(line.replace("## ", ""), styles["CustomHeading"]))
 
-        # Handle bullet points (* or -)
         elif line.strip().startswith(("* ", "- ")):
             story.append(Paragraph("• " + line[2:].strip(), styles["CustomBody"]))
 
-        # Handle normal text (also remove single * anywhere)
         else:
             clean_line = line.replace("*", "")
             story.append(Paragraph(clean_line, styles["CustomBody"]))

@@ -5,7 +5,7 @@ from pathlib import Path
 def load_erp_data(filepath: str) -> pd.DataFrame:
 
     df = pd.read_excel(filepath)
-    df.columns = df.columns.str.strip()  # clean col names
+    df.columns = df.columns.str.strip() 
     return df
 
 
@@ -33,7 +33,6 @@ def load_bank_statement(filepath: str) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    # Quick test
     base_path = Path(__file__).resolve().parents[1] / "data"
     
     erp_df = load_erp_data(base_path / "erp_data.xlsx")
